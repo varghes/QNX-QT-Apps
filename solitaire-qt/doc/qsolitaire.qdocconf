@@ -1,0 +1,38 @@
+include(compat.qdocconf)
+
+project          = Solitaire
+description      = Solitaire Game Example
+url              = http://qt.nokia.com/doc/4.7
+
+
+# The outputdir variable specifies the directory 
+# where QDoc will put the generated documentation.
+
+outputdir        = html
+
+# The headerdirs variable specifies the directories 
+# containing the header files associated 
+# with the .cpp source files used in the documentation.
+
+headerdirs  = ../src/
+
+
+# The sourcedirs variable specifies the 
+# directories containing the .cpp or .qdoc 
+# files used in the documentation.
+
+sources = ./examples/qsolitaire.qdoc
+sources.fileextensions  = "*.cpp *.qdoc"
+
+
+# The exampledirs variable specifies the directories containing 
+# the source code of the example files.
+
+#examples = ../src
+exampledirs = ../src
+
+
+# The imagedirs variable specifies the 
+# directories containing the images used in the documentation.
+
+imagedirs   = ./images

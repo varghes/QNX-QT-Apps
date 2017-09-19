@@ -1,0 +1,42 @@
+# qtFileManager
+
+## Quickstart
+
+1. Clone the latest and greatest version
+
+        git clone git@github.com:tocas/qtFileManager.git
+
+2. configure project file
+
+        qmake -project
+
+3. QT pre build
+
+        qmake
+
+4. Build project under your OS system
+
+        make
+
+
+## Project overview
+
+    Platform independen file manager build using QT framework.
+
+## Project Idea
+
+    Why every OS has threir own file manager? Changing OS platform means change the way how you fork with files.
+
+    One for all. Thats All I want.
+
+
+
+## Authors
+
+* Tomáš Lucovič,tomaslucovic@gmail.com>
+
+
+
+## Copyright
+
+This project is distribueted under LGPL licence

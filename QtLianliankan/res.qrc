@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/image/1.png</file>
+        <file>res/image/2.png</file>
+        <file>res/image/3.png</file>
+        <file>res/image/4.png</file>
+        <file>res/image/5.png</file>
+        <file>res/image/6.png</file>
+        <file>res/image/7.png</file>
+        <file>res/image/8.png</file>
+        <file>res/image/9.png</file>
+        <file>res/image/10.png</file>
+        <file>res/image/11.png</file>
+        <file>res/image/12.png</file>
+        <file>res/image/13.png</file>
+        <file>res/image/14.png</file>
+        <file>res/image/15.png</file>
+        <file>res/image/16.png</file>
+        <file>res/image/17.png</file>
+        <file>res/image/18.png</file>
+        <file>res/image/19.png</file>
+        <file>res/image/20.png</file>
+        <file>res/image/21.png</file>
+        <file>res/image/22.png</file>
+        <file>res/image/23.png</file>
+        <file>res/image/24.png</file>
+        <file>res/image/25.png</file>
+        <file>res/sound/pair.wav</file>
+        <file>res/sound/release.wav</file>
+        <file>res/sound/select.wav</file>
+    </qresource>
+</RCC>

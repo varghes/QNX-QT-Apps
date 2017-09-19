@@ -1,0 +1,34 @@
+<document exts="pp;pas;dpr" langs="Pascal">
+
+<item name="options" casecare="0" wrap="0" xml_format="1"> 
+</item>
+
+<item name="keywords" type="keywords" color="keywords" fontstyle="bold">
+\b(absolute|and|array|as|asm|begin|break|case|class|const|constructor|continue|destructor|dispose|div|do|downto|else|end|except|exit|exports|false|file|finalization|finally|for|function|goto|if|implementation|in|inherited|initialization|inline|interface|is|label|library|mod|new|nil|not|object|of|on|on|operator|or|out|packed|procedure|program|property|raise|record|reintroduce|repeat|self|set|shl|shr|string|then|threadvar|to|true|try|type|unit|until|uses|var|while|with|xor)\b</item>
+
+<item name="modifiers" type="keywords" color="modifiers" fontstyle="bold">
+\b(abstract|alias|assembler|cdecl|cppdecl|default|export|external|far|far16|forward|index|local|name|near|nostackframe|oldfpccall|override|pascal|private|protected|public|published|read|register|safecall|softfloat|stdcall|virtual|write)\b
+</item>
+
+<item name="types" type="keywords" color="type">
+\b(ansistring|boolean|byte|bytebool|cardinal|char|comp|currency|double|extended|int64|integer|longbool|longint|longword|pchar|qword|real|shortint|single|smallint|string|widechar|word)\b</item>
+
+<item name="label" type="item" color="label" fontstyle="bold">^[a-zA-Z_][a-zA-Z0-9_]*\:</item>
+
+<item name="include" type="item" color="include" fontstyle="italic">^#uses</item>
+
+<item name="quotes" type="item" color="quotes">('[^']*')</item>
+
+<item name="char" type="item" color="quotes">('[^']*')</item>
+
+<item name="single comment" type="item" color="single comment" fontstyle="italic">//[^\n]*</item>
+
+<item name="mcomment-start" type="mcomment-start" color="mcomment-start" fontstyle="italic">\{</item>
+
+<item name="mcomment-end" type="mcomment-end">\}</item>
+
+<item name="cm_mult" type="comment">{%s}</item>
+
+<item name="cm_single" type="comment">//%s</item>
+
+</document>

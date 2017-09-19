@@ -1,0 +1,30 @@
+#ifndef PLAYER_H
+#define PLAYER_H
+
+#include <QPainter>
+#include <QGraphicsItem>
+#include <QGraphicsScene>
+class Player : public QGraphicsItem
+{
+
+public:
+    Player();
+    QRectF boundingRect() const;
+    void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
+    void advance();
+    void setpacx(int);
+    void setpacy(int);
+    void setDirection(int dir);
+    void changeGeometry() { prepareGeometryChange(); }
+
+
+    QPixmap left1,left2,left3,left4;
+    QPixmap up1,up2,up3,up4;
+    QPixmap down1,down2,down3,down4;
+    QPixmap right1,right2,right3,right4;
+
+    int pacx,pacy,x,y,height,width;
+    int direction;
+    int animestate;
+};
+#endif // PLAYER_H

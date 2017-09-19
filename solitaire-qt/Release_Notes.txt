@@ -1,0 +1,152 @@
+Solitaire Game Example v1.7
+===========================
+
+This Qt C++ example application is a cross-platform Solitaire game that runs 
+in different Qt environments such as Symbian Anna, Meego 1.2 Harmattan, Maemo, 
+and desktop Windows. The application uses the Qt Graphics View Framework and 
+SVG graphics for drawing 2D graphics. The application supports touch UI.
+
+The example has been tested to work with Qt 4.7.4.
+
+
+PREREQUISITES
+-------------------------------------------------------------------------------
+
+- Qt basics
+- Qt Graphics View Framework (http://doc.trolltech.com/graphicsview.html)
+
+
+IMPORTANT FILES/CLASSES
+-------------------------------------------------------------------------------
+
+- TableauWidget.h: Main UI control that shows Qt Graphics View Framework 
+  QGraphicsView
+
+- SolitaireScene.h: Graphics View Framework scene class that shows 
+  QGraphicsSvgItems
+
+- Card.h: Card QGraphicsSvgItem
+
+- Deck.h: Deck QGraphicsSvgItem
+
+- Foundation.h: Foundation QGraphicsSvgItem
+
+- Waste.h: Waste QGraphicsSvgItem
+
+- Stock.h: Stock QGraphicsSvgItem
+
+- CardDeck.h: A Deck class for the cards
+
+- GameLogic.h: Solitaire game logic
+
+Important classes: QGraphicsView, QGraphicsSvgItems, QGraphicsScene, QWidget.
+
+
+KNOWN ISSUES
+-------------------------------------------------------------------------------
+
+None.
+
+
+INSTALLATION INSTRUCTIONS
+-------------------------------------------------------------------------------
+
+Mobile device (Symbian Anna)
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There are two ways to install the application on the device.
+
+0. The Qt libraries (4.7.4 or higher) must be installed. See the section 
+   COMPATIBILITY for more information about the installation.
+
+1. Drag the Symbian SIS file to the Nokia Ovi Suite while the device
+   is connected with the USB cable.
+
+2. After the installation is complete, return to the application menu and
+   select the Applications folder.
+   
+3. Locate the application icon and select it to launch the application.
+
+
+Mobile device (Maemo)
+~~~~~~~~~~~~~~~~~~~~~
+0. The Qt libraries (4.7.0 or higher) must be installed. See the section 
+   COMPATIBILITY for more information about the installation.
+
+1. Copy the Debian package (.deb) file into a specific folder on the 
+   device (for example, 'MyDocs').
+
+2. Start Maemo Filemanager from the application menu.
+
+3. Browse to MyDocs and click the copied Debian package. App manager
+   will be opened and installation will start.
+   
+4. Launch the Applications menu.
+
+5. Locate the application icon and select it to launch the application.
+
+
+Mobile device (MeeGo 1.2 Harmattan)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Copy the Debian package (.deb) file into a specific folder on the
+   device.
+
+2. Start Terminal. Type 'ssh root@localhost' to get root access. The password
+   is 'rootme' or 'obv1ous'.
+
+3. 'cd' to the directory to which you copied the package.
+
+4. As root, install the package:
+   dpkg -i nameOfPackage.deb
+
+5. Locate the application icon from the Applications menu and tap it to launch
+   the application.
+
+
+Windows desktop
+~~~~~~~~~~~~~~~
+
+1. Extract the ZIP to the folder of your choosing.
+
+2. Select Windows desktop enviroment and build/launch the application (press 
+   Run).
+
+
+COMPATIBILITY
+-------------------------------------------------------------------------------
+
+- Symbian Anna with Qt version 4.7.4
+- Maemo with PR1.3 which includes Qt 4.7.0
+- Meego 1.2 Harmattan
+- Windows desktop
+    
+Tested on:
+
+- Nokia E7-00
+- Nokia N8-00
+- Nokia N900
+- Nokia N950
+- Windows 7
+
+Developed with:
+
+- Qt SDK 1.1.4
+
+
+VERSION HISTORY
+-------------------------------------------------------------------------------
+
+1.7.0 Support for Harmattan added 
+1.5.1 Qt 4.7.2 check
+1.5.0 Custom Exit button added for Symbian.
+1.4.0 Qt 4.6.2 check
+1.3.0 Bug in the undo feature when moving the cards fixed
+1.2.0 Support for the Nokia N900 device checked
+1.1.0 Qt 4.5.2 for S60 Tower release fixes:
+      - QMainWindow now gets the correct screen size in resizeEvent(), 
+        workaround removed
+      - Card.h QGraphicsSvgItem uses DeviceCoordinateCache to tune up card 
+        drawing
+      - User cannot open many Exit dialogues
+1.0.0 Beta: First implementation on top of Qt 4.5 Garden

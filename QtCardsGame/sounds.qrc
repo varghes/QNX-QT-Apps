@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/sounds">
+        <file>card.sound.wav</file>
+        <file>lose.sound.wav</file>
+        <file>win.sound.wav</file>
+    </qresource>
+</RCC>

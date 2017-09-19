@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>hexagon.jpg</file>
+        <file>snakeUnit3.png</file>
+        <file>snakeUnit4.png</file>
+        <file>snakeUnit5.png</file>
+        <file>snakeUnit6.png</file>
+        <file>snakeUnit7.png</file>
+        <file>snakeUnit1.png</file>
+        <file>back.jpg</file>
+        <file>f1.png</file>
+        <file>f2.png</file>
+        <file>f3.png</file>
+        <file>f4.png</file>
+        <file>f5.png</file>
+        <file>f6.png</file>
+        <file>f7.png</file>
+        <file>snakeUnit1Head.png</file>
+        <file>snakeUnit2Head.png</file>
+        <file>snakeUnit3Head.png</file>
+        <file>snakeUnit4Head.png</file>
+        <file>snakeUnit5Head.png</file>
+        <file>snakeUnit6Head.png</file>
+        <file>snakeUnit7Head.png</file>
+        <file>snakeUnit2.png</file>
+        <file>snakeUnit8.png</file>
+        <file>snakeUnit8Head.png</file>
+        <file>snakeUnit9.png</file>
+        <file>snakeUnit9Head.png</file>
+        <file>snakeUnit10.png</file>
+        <file>snakeUnit10Head.png</file>
+        <file>illFood.png</file>
+        <file>stone.png</file>
+        <file>mush1.png</file>
+        <file>mush2.png</file>
+    </qresource>
+</RCC>

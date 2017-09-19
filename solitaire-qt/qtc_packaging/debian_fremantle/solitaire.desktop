@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=Solitaire
+Exec=/opt/usr/bin/solitaire
+Icon=solitaire
+StartupWMClass=
+X-Window-Icon=solitaire
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable
+Terminal=false
+

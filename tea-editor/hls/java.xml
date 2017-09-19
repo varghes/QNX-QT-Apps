@@ -1,0 +1,31 @@
+<document exts="java" langs="Java">
+
+<item name="options" wrap="0" xml_format="1"></item>
+
+<item name="types" type="types" color="type" fontstyle="bold">\b(boolean|byte|char|double|float|int|long|short|void)\b</item>
+
+	
+<item name="keywords" type="keywords" color="keywords" fontstyle="bold">
+\b(abstract|assert|break|byte|case|catch|class|const|continue|default|do|else|enum|extends|false|final|finally|for|goto|if|implements|import|instanceof|interface|native|new|package|private|protected|public|return|static|strictfp|super|switch|synchronized|this|throw|throws|transient|true|try|volatile|while)\b</item>
+
+<item name="functions" type="item" color="functions">\b[A-Za-z0-9_]+(?=\()</item>
+
+<item name="include" type="item" color="include" fontstyle="italic">^#import</item>
+
+<item name="preproc" type="item" color="preproc" fontstyle="italic">^#.*</item>
+
+<item name="quotes" type="item" color="quotes">("[^\"]*")</item>
+
+<item name="char" type="item" color="quotes">('[^']*')</item>
+
+<item name="single comment" type="item" color="single comment" fontstyle="italic">//[^\n]*</item>
+
+<item name="mcomment-start" type="mcomment-start" color="mcomment-start" fontstyle="italic">/\*</item>
+
+<item name="mcomment-end" type="mcomment-end">\*/</item>
+
+<item name="cm_mult" type="comment">/*%s*/</item>
+
+<item name="cm_single" type="comment">//%s</item>
+
+</document>
